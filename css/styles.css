@@ -1,0 +1,279 @@
+body{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/*color #212529 */
+
+
+/* Navigation Bar  */
+.navbar{
+    border-radius: 20px;
+}
+
+.logo{
+    position: relative;
+    padding: 0 30px;
+}
+
+.nav-item{
+    position: relative;
+    padding: 0 30px;
+}
+
+
+/* About Containter  */
+.about-container{
+    text-align: center;
+    padding: 120px 100px;
+}
+
+.about-photo{
+    text-align: right;
+}
+
+.about-text-div{
+    display: flex;
+    align-items: center;
+}
+
+.about-text{
+    text-align: left;
+    padding: 30px;
+}
+
+.heading{
+    font-size: 5rem;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-weight: 600;
+    text-shadow: 4px 0 5px skyblue
+}
+
+.sub-heading{
+    color: #08243a;
+}
+
+.profile-photo{
+    width: 450px;
+    border-radius: 50%;
+}
+
+
+
+/* Portfolio Section  */
+#Portfolio{
+    padding: 60px;
+    background-color: #212529;
+    border-radius: 20px;
+}
+
+.projects{
+    border-radius: 20px;
+}
+
+.project-item{
+    background-color: #212529;
+    text-align: center;
+    padding: 50px 0 0;
+    
+}
+
+.pitem{
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.prev-next-button{
+    width: 40px;
+}
+
+/* Heading  */
+.pro-heading{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #212529;
+}
+
+.project-heading{
+    color: white;
+    margin-top: 15px;
+}
+
+.project-text{
+    color: grey;
+    width: 70%;
+    margin: 0 auto 50px;
+}
+
+
+/* Contact section  */
+#Contact{
+    margin-top: 30px;
+    padding: 50px 0 0;
+}
+
+#Contact h2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-heading{
+    font-size: 3.1rem;
+    width: 80%;
+    position: relative;
+    margin: 40px auto 20px;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #212529;
+    border-radius: 20px;
+    color: skyblue;
+    padding: 40px 20px 10px;
+    margin-top: 40px;
+}
+
+.footer a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+.footer p{
+    margin-top: 20px;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.contact-btn{
+    background-color: #212529;
+    box-shadow: 0 5px 5px skyblue;
+    color: skyblue;
+    margin: 50px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 210px;
+}
+
+.contact-btn:hover{
+    color: white;
+}
+
+
+.carousel-indicators{
+    margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+    .profile-photo{
+        width: 380px;
+    }
+
+    .about-text{
+        padding: auto 0;
+    }
+
+    .heading{
+        font-size: 3.5rem;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+    .about-photo{
+        text-align: center;
+    }
+
+    .about-text-div{
+        justify-content: center;
+        margin-top: 25px
+    }
+
+    #About h1, h3{
+        text-align: center;
+    }
+
+    #Contact{
+        padding-top: 10px;
+    }
+
+    .about-container{
+        padding: 50px 100px 55px;
+    }
+
+    .about-text{
+        padding: 0;
+    }
+
+    .contact-btn{
+        margin: 30px 50px 50px;
+    }
+}
+
+
+@media (max-width: 786px) {
+    .profile-photo{
+        width: 350px;
+    }
+
+    #Portfolio{
+        padding: 60px 15px;
+    }
+
+    .project-item{
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-photo{
+        width: 300px;
+    }
+
+    .about-container{
+        padding: 50px 0 55px;
+    }
+
+    .pro-heading{
+        width: 50%;
+    }
+
+    .contact-heading{
+        font-size: 2.3rem;
+        width: 90%;
+    }
+
+    .ghost-logo{
+        font-size: 30px;
+    }
+
+    .logo{
+        font-size: 15px;
+        padding: 0 7px;
+    }
+
+    #Contact{
+        padding: 5px 0 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile-photo{
+        width: 250px;
+    }
+}
