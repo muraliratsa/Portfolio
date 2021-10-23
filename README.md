@@ -1,2 +1,2 @@
 # Portfolio
-A fully responsive portfolio website using bootstrap 5.
+A fully responsive website built using bootstrap 5.
